@@ -15,8 +15,8 @@ let app = {
       click.initClick();
       enemy.initEnemy();
       collision.initCollision();
-      sounds.loadFire();
-      app.testSound1();
+      // sounds.loadFire();
+      // app.testSound1();
     }
   },
   handleSwitchOnOff: function (evt) {

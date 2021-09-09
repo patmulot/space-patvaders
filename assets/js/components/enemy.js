@@ -85,7 +85,7 @@ let enemy = {
     return parseInt(Math.random() * (4 - 1 + 1) + 1);
   },
   enemyMovement: function () {
-      sounds.a1fonda();
+      // sounds.a1fonda();
       for (let currentIndex = 0; currentIndex < enemy.allEnemiesTab.length; currentIndex++) {
       if (enemy.allEnemiesTab[currentIndex] === 0) {} else {
         let currentEnemy = enemy.allEnemiesTab[currentIndex];
@@ -126,7 +126,7 @@ let enemy = {
     setTimeout("collision.detectCollision()", 900);
   },
   removeEnemy: function (currentClassIndex) {
-    sounds.dying();
+    // sounds.dying();
     let enemyIndex = currentClassIndex - 1;
     enemy.allEnemiesTab[enemyIndex] = 0;
     let containerElement = document.querySelector(".screen_container");

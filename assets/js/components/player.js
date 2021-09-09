@@ -42,7 +42,7 @@ let player = {
   //   collision.detectCollision();
   // },
   handleKeysOnObject: function (evt) {
-    sounds.d2quarte();
+    // sounds.d2quarte();
     // Math.round(ton_chiffre*100)/100; //!
     let objElement = document.querySelector(".object");
     // player RIGHT -----------------------------------
@@ -73,7 +73,7 @@ let player = {
     collision.detectCollision();
   },
   loseLife: function () {
-    sounds.octave();
+    // sounds.octave();
     player.lives -= 1;
     let livesElement = document.querySelector(".lives");
     livesElement.textContent = player.lives;
