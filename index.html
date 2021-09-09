@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Space Patvader</title>
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/gameboyStyle.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div id="gb">
+      <div class="airing_container">
+        <div class="airing_lines"></div>
+        <div class="airing_lines"></div>
+        <div class="airing_lines"></div>
+        <div class="airing_lines"></div>
+        <div class="airing_lines"></div>
+        <div class="airing_lines"></div>
+      </div>
+      <div id="gb_triangle"></div>
+      <div id="gb_lines">
+        <div id="gb_line_X"></div>
+        <div class="gb_line_Y gb_line_left"></div>
+        <div class="gb_line_Y gb_line_right"></div>
+      </div>
+      <div class="switch_container">
+        <div class="switch">
+          <button class="switch_slider switch_on"></button>
+        </div>
+        <span class="on_off_text">&#9668; OFF 	&#8226; ON &#9658;</span>
+      </div>
+      <div id="gb_screen_border">
+        <div id="gb_led_battery">
+          <div id="gb_led_container">
+            <div id="gb_led"></div>
+          </div>
+          <div id="gb_battery">BATTERY</div>
+        </div>
+        <div id="gb_screen">
+          <div class="screen_container">
+            <div class="object">
+              <div class="player">
+                <div class="weapon"></div>
+              </div>
+            </div>
+            <div class="screen"></div>
+          </div>
+          <div class="scoring_container">
+            <div class="scoring">
+              <div>lives : <span class="lives"></span></div>
+              <div>thrown : <span class="thrown"></span></div>
+              <div>landed : <span class="landed"></span></div>
+              <div>wave : <span class="wave"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="gb_text">
+        <div id="gb_text_nintendo">Nintendo </div>
+        <div id="gb_text_gameboy">GAME BOY </div>
+        <div id="gb_text_tm">TM</div>
+      </div>
+      <div id="all_btns">
+        <div id="btn_cross">
+          <div class="btn_container_Y">
+            <button class="btn_move btn_move-up">&#9650;</button>
+            <div class="centre_Y"></div>
+            <button class="btn_move btn_move-down">&#9660;</button>
+          </div>
+          <div class="btn_container_X">
+            <button class="btn_move btn_move-left">&#9668;</button>
+            <div class="centre_X"></div>
+            <button class="btn_move btn_move-right">&#9658;</button>
+          </div>
+          <div id="centre_circle"></div>
+        </div>
+      </div>
+      <div id="button_container_gb">
+        <div id="buttons_gb">
+          <div class="button_content_gb">
+            <button class="button_gb B_btn"></button>
+            <div class="B_btn">B</div>
+          </div>
+          <div class="button_content_gb">
+            <button class="button_gb A_btn"></button>
+            <div class="A_btn">A</div>
+          </div>
+        </div>
+      </div>
+      <div id="ss_container">
+        <div class="ss_content">
+          <a href="index.html">
+            <button class="ss_button"></button>
+          </a>
+          <div class="ss_text">SELECT</div>
+        </div>
+        <div class="ss_content">
+          <a href="index.html">
+            <button class="ss_button"></button>
+          </a>
+          <div class="ss_text">START</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <template id="tpl_enemy">
+    <div class="enemy_face">
+      <div class="enemy_eyeL"></div>
+      <div class="enemy_eyeR"></div>
+      <div class="enemy_mouth"></div>
+    </div>
+  </template>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/components/sounds.js"></script>
+  <!-- <script src="assets/js/components/before.js"></script> -->
+  <script src="assets/js/components/elements.js"></script>
+  <script src="assets/js/components/player.js"></script>
+  <!-- <script src="assets/js/components/shifting.js"></script> -->
+  <script src="assets/js/components/buttons.js"></script>
+  <script src="assets/js/components/click.js"></script>
+  <script src="assets/js/components/enemy.js"></script>
+  <script src="assets/js/components/collision.js"></script>
+</body>
+
+</html>
