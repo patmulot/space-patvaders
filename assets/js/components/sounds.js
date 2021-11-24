@@ -1,5 +1,5 @@
 let sounds = {
-    a1fonda: function () {
+    a1fonda: function() {
         //   let audioCtx = new(window.AudioContext || window.webkitAudioContext)();
         //   let oscillator = audioCtx.createOscillator();
         //   let gainNode = audioCtx.createGain();
@@ -14,7 +14,7 @@ let sounds = {
         //     oscillator.stop();
         //   },(enemy.maxEnemieSpeed / 2));
     },
-    e2quinte: function () {
+    e2quinte: function() {
         //   let audioCtx = new(window.AudioContext || window.webkitAudioContext)();
         //   let oscillator = audioCtx.createOscillator();
         //   oscillator.type = "triangle";
@@ -25,7 +25,7 @@ let sounds = {
         //     oscillator.stop();
         //   },10);
     },
-    octave: function () {
+    octave: function() {
         //   let audioCtx = new(window.AudioContext || window.webkitAudioContext)();
         //   let oscillator = audioCtx.createOscillator();
         //   oscillator.type = "triangle";
@@ -36,7 +36,7 @@ let sounds = {
         //     oscillator.stop();
         //   },10);
     },
-    c2tierce: function () {
+    c2tierce: function() {
         //   let audioCtx = new(window.AudioContext || window.webkitAudioContext)();
         //   let oscillator = audioCtx.createOscillator();
         //   oscillator.type = "triangle";
@@ -47,7 +47,7 @@ let sounds = {
         //     oscillator.stop();
         //   },10);
     },
-    d2quarte: function () {
+    d2quarte: function() {
         //   let audioCtx = new(window.AudioContext || window.webkitAudioContext)();
         //   let oscillator = audioCtx.createOscillator();
         //   let gainNode = audioCtx.createGain();
@@ -62,7 +62,7 @@ let sounds = {
         //     oscillator.stop();
         //   },10);
     },
-    fire: function () {
+    fire: function() {
         // let audioCtx = new(window.AudioContext || window.webkitAudioContext)();
         // let oscillator = audioCtx.createOscillator();
         // let gainNode = audioCtx.createGain();
@@ -76,7 +76,7 @@ let sounds = {
         //     oscillator.stop();
         // }, 50);
     },
-    dying: function () {
+    dying: function() {
         // let audioCtx = new(window.AudioContext || window.webkitAudioContext)();
         // let oscillator = audioCtx.createOscillator();
         // let gainNode = audioCtx.createGain(0, 1);
